@@ -3,3 +3,4 @@ LEAN/data
 */backtest/*
 .ipynb_checkpoints
 __pycache__
+.DS_Store
