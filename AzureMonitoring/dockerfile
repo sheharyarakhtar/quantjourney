@@ -1,0 +1,5 @@
+FROM python:3.9
+WORKDIR /app  
+COPY monitoring.py /app/monitoring.py  
+RUN pip install pandas python-binance==1.0.28 requests python-dotenv azure-storage-blob
+CMD ["python", "monitoring.py"]
