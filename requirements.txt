@@ -317,7 +317,7 @@ SQLAlchemy==1.4.54
 SQLAlchemy-Utils==0.38.3
 sqlglot==25.34.1
 sqlparse==0.5.3
-sshtunnel==0.1.5
+sshtunnel>=0.4.0,<0.5
 stack_data==0.6.3
 tabulate==0.8.10
 threadpoolctl==3.5.0
