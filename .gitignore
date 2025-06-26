@@ -1,5 +1,7 @@
 # Data files
 Data/
+data/raw/
+data/processed/
 *.csv
 *.xlsx
 *.xls
@@ -8,18 +10,28 @@ Data/
 *.hdf5
 *.db
 *.sqlite
+*.json
+*.xml
+*.yaml
+*.yml
 
 # Generated images and plots
 Images/
+images/
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.svg
 *.pdf
+*.eps
+*.tiff
+*.bmp
+*.webp
 
 # Model files
 Models/
+models/
 *.pkl
 *.pickle
 *.joblib
@@ -30,6 +42,9 @@ Models/
 *.pt
 *.pth
 *.safetensors
+*.model
+*.bin
+*.weights
 
 # MLflow tracking
 mlruns/
@@ -68,6 +83,17 @@ ENV/
 env.bak/
 venv.bak/
 .venv/
+.conda/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+*.env
+config.env
 
 # IDE
 .vscode/
@@ -75,6 +101,9 @@ venv.bak/
 *.swp
 *.swo
 *~
+.project
+.classpath
+.settings/
 
 # OS
 .DS_Store
@@ -84,24 +113,71 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
 # Logs
 *.log
 logs/
-
-# Environment variables
-.env
-.env.local
-.env.*.local
+log/
 
 # Temporary files
 *.tmp
 *.temp
 temp/
 tmp/
+.tmp/
+.temp/
 
 # Azure monitoring
 AzureMonitoring/
 
 # Specific files that shouldn't be tracked
 stocks.db
+*.db
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+cache/
+
+# Node modules (if any)
+node_modules/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Local configuration
+config/local.*
+config/dev.*
+config/prod.*
+
+# API keys and secrets
+secrets/
+secrets.json
+api_keys.txt
+credentials.json
