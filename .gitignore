@@ -1,6 +1,183 @@
+# Data files
+Data/
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Generated images and plots
+Images/
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.eps
+*.tiff
+*.bmp
+*.webp
+
+# Model files
+Models/
+models/
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.pt
+*.pth
+*.safetensors
+*.model
+*.bin
+*.weights
+
+# MLflow tracking
+mlruns/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.conda/
+
+# Environment files
 .env
-LEAN/data
-*/backtest/*
-.ipynb_checkpoints
-__pycache__
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+*.env
+config.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+.tmp/
+.temp/
+
+# Azure monitoring
+AzureMonitoring/
+
+# Specific files that shouldn't be tracked
+stocks.db
+*.db
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Cache directories
+.cache/
+cache/
+
+# Node modules (if any)
+node_modules/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Local configuration
+config/local.*
+config/dev.*
+config/prod.*
+
+# API keys and secrets
+secrets/
+secrets.json
+api_keys.txt
+credentials.json
